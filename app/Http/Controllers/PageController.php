@@ -4,17 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PageControlle extends Controller
+class PageController extends Controller
 {
     public function index() {
-        return view('home')->name('home');
+        return view('home');
     }
 
     public function about() {
-        return view('about')->name('chi siamo');
+        return view('about');
     }
 
     public function contacts() {
-        return view('contacts')->name('contatti');
+        return view('contacts');
     }
 }

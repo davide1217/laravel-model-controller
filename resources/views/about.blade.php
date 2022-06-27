@@ -1,5 +1,5 @@
 @extends('layout.main')
 
 @section('content')
-    <h1>ciao1</h1>
+    <h1>?chi siamo?</h1>
 @endsection

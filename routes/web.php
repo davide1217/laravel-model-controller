@@ -13,8 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageControlle@index');
+Route::get('/', 'PageController@index')->name('home');
 
-Route::get('about', 'PageControlle@about');
+Route::get('/about', 'PageController@about')->name('chi-siamo');
 
-Route::get('contacts', 'PageControlle@contacts');
+Route::get('/contacts', 'PageController@contacts')->name('contatti');
+
+Route::get('/', 'MovieController@index')->name('movies');

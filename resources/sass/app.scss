@@ -1,1 +1,47 @@
 //
+h1 {
+    color: brown;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body > div {
+    margin: auto;
+    width: fit-content;
+
+    & ul {
+        list-style: none;
+        display: flex;
+
+        & li {
+            margin: 0 10px;
+            font-size: 1.3rem;
+
+            & a {
+                color: brown;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 680px;
+    margin: auto;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+
+    & span {
+        width: 150px;
+        margin: 20px 10px;
+
+        & div {
+            line-height: 30px;
+        }
+    }
+}
+
